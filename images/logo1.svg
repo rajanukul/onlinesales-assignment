@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="300pt"
+   height="300pt"
+   viewBox="0 0 300 300"
+   version="1.1"
+   id="svg3630"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="Honeycomb flat (svg) 2.svg"
+   inkscape:export-filename="C:\Users\Juhachi18\Pictures\Honeycomb flat (svg) 2.png"
+   inkscape:export-xdpi="90.000008"
+   inkscape:export-ydpi="90.000008">
+  <metadata
+     id="metadata3656">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs3654">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 187.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="375 : 187.5 : 1"
+       inkscape:persp3d-origin="187.5 : 125 : 1"
+       id="perspective3658" />
+    <filter
+       id="filter3671"
+       inkscape:menu-tooltip="Make the lightest parts of the object progressively transparent"
+       inkscape:menu="Transparency utilities"
+       inkscape:label="Light eraser"
+       height="1"
+       width="1"
+       y="0"
+       x="0"
+       color-interpolation-filters="sRGB">
+      <feColorMatrix
+         id="feColorMatrix3673"
+         result="result14"
+         type="luminanceToAlpha"
+         in="SourceGraphic" />
+      <feComposite
+         id="feComposite3675"
+         in2="result14"
+         in="SourceGraphic"
+         result="fbSourceGraphic"
+         operator="out" />
+      <feBlend
+         id="feBlend3677"
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result15" />
+    </filter>
+    <filter
+       id="filter3679"
+       inkscape:menu-tooltip="Make the lightest parts of the object progressively transparent"
+       inkscape:menu="Transparency utilities"
+       inkscape:label="Light eraser"
+       height="1"
+       width="1"
+       y="0"
+       x="0"
+       color-interpolation-filters="sRGB">
+      <feColorMatrix
+         id="feColorMatrix3681"
+         result="result14"
+         type="luminanceToAlpha"
+         in="SourceGraphic" />
+      <feComposite
+         id="feComposite3683"
+         in2="result14"
+         in="SourceGraphic"
+         result="fbSourceGraphic"
+         operator="out" />
+      <feBlend
+         id="feBlend3685"
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result15" />
+    </filter>
+    <filter
+       id="filter3687"
+       inkscape:menu-tooltip="Make the lightest parts of the object progressively transparent"
+       inkscape:menu="Transparency utilities"
+       inkscape:label="Light eraser"
+       height="1"
+       width="1"
+       y="0"
+       x="0"
+       color-interpolation-filters="sRGB">
+      <feColorMatrix
+         id="feColorMatrix3689"
+         result="result14"
+         type="luminanceToAlpha"
+         in="SourceGraphic" />
+      <feComposite
+         id="feComposite3691"
+         in2="result14"
+         in="SourceGraphic"
+         result="fbSourceGraphic"
+         operator="out" />
+      <feBlend
+         id="feBlend3693"
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result15" />
+    </filter>
+    <filter
+       id="filter3695"
+       inkscape:menu-tooltip="Make the lightest parts of the object progressively transparent"
+       inkscape:menu="Transparency utilities"
+       inkscape:label="Light eraser"
+       height="1"
+       width="1"
+       y="0"
+       x="0"
+       color-interpolation-filters="sRGB">
+      <feColorMatrix
+         id="feColorMatrix3697"
+         result="result14"
+         type="luminanceToAlpha"
+         in="SourceGraphic" />
+      <feComposite
+         id="feComposite3699"
+         in2="result14"
+         in="SourceGraphic"
+         result="fbSourceGraphic"
+         operator="out" />
+      <feBlend
+         id="feBlend3701"
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result15" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1600"
+     inkscape:window-height="881"
+     id="namedview3652"
+     showgrid="false"
+     inkscape:showpageshadow="false"
+     showborder="false"
+     inkscape:zoom="1.7800235"
+     inkscape:cx="126.27028"
+     inkscape:cy="130.30918"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg3630" />
+  <path
+     fill="#ffffff"
+     d=" M 0.00 0.00 L 148.61 0.00 C 116.92 0.47 85.40 10.93 60.10 30.11 C 34.09 49.53 14.74 77.66 5.89 108.89 C 2.22 121.46 0.50 134.52 0.00 147.58 L 0.00 0.00 Z"
+     id="path3632"
+     style="filter:url(#filter3671)" />
+  <path
+     fill="#d4aa00"
+     d=" M 148.61 0.00 L 150.54 0.00 C 182.51 0.26 214.37 10.75 239.88 30.09 C 266.13 49.71 285.65 78.18 294.36 109.79 C 297.85 121.90 299.42 134.48 300.00 147.05 L 300.00 152.41 C 299.25 182.79 289.50 212.96 271.59 237.58 C 252.90 263.64 225.62 283.42 195.00 292.98 C 180.33 297.66 164.91 299.82 149.52 300.00 L 146.73 300.00 C 115.67 299.09 84.87 288.72 60.08 269.88 C 34.47 250.75 15.28 223.19 6.29 192.50 C 2.34 179.41 0.45 165.76 0.00 152.11 L 0.00 147.58 C 0.50 134.52 2.22 121.46 5.89 108.89 C 14.74 77.66 34.09 49.53 60.10 30.11 C 85.40 10.93 116.92 0.47 148.61 0.00 Z"
+     id="path3634" />
+  <path
+     fill="#ffffff"
+     d=" M 150.54 0.00 L 300.00 0.00 L 300.00 147.05 C 299.42 134.48 297.85 121.90 294.36 109.79 C 285.65 78.18 266.13 49.71 239.88 30.09 C 214.37 10.75 182.51 0.26 150.54 0.00 Z"
+     id="path3636"
+     style="filter:url(#filter3679)" />
+  <path
+     fill="#fe9300"
+     d=" M 135.30 13.50 C 165.31 10.18 196.39 17.14 222.02 33.11 C 248.81 49.52 269.65 75.43 279.83 105.16 C 289.46 132.94 289.80 163.83 280.82 191.84 C 271.73 220.55 252.78 246.00 227.95 263.04 C 201.98 281.16 169.52 289.64 138.01 286.78 C 110.88 284.52 84.54 273.85 63.46 256.62 C 39.44 237.15 22.20 209.39 15.79 179.11 C 9.40 149.70 12.93 118.18 25.97 91.03 C 38.93 63.66 61.23 40.87 88.31 27.31 C 102.97 19.92 118.97 15.19 135.30 13.50 Z"
+     id="path3638" />
+  <path
+     fill="#ffd42a"
+     d=" M 137.35 19.48 C 164.10 16.84 191.64 22.66 214.95 36.07 C 241.88 51.36 263.04 76.49 273.44 105.65 C 283.88 134.55 283.70 167.13 272.88 195.88 C 261.54 226.51 238.24 252.48 209.05 267.10 C 185.44 279.10 158.13 283.57 131.92 279.89 C 102.45 275.92 74.56 261.42 54.32 239.65 C 33.76 217.90 21.07 188.86 19.19 158.98 C 16.77 126.42 27.26 93.15 47.82 67.80 C 69.60 40.57 102.59 22.63 137.35 19.48 Z"
+     id="path3640" />
+  <path
+     fill="#000000"
+     d=" M 148.44 42.38 C 149.64 41.54 150.95 42.39 152.03 42.96 C 165.84 50.87 179.72 58.68 193.53 66.59 C 194.90 67.14 194.72 68.77 194.77 69.97 C 194.75 85.70 194.90 101.44 195.15 117.16 C 195.39 120.06 191.88 120.70 190.06 122.09 C 177.45 129.45 164.85 136.84 152.26 144.24 C 151.17 145.01 149.74 145.19 148.62 144.37 C 134.80 136.55 121.02 128.65 107.20 120.83 C 106.05 120.28 105.00 119.33 105.26 117.93 C 105.18 102.96 105.21 87.99 104.85 73.03 C 105.07 71.09 104.07 68.34 106.16 67.15 C 120.23 58.86 134.32 50.58 148.44 42.38 Z"
+     id="path3642" />
+  <path
+     fill="#000000"
+     d=" M 56.28 151.30 C 70.52 143.07 84.59 134.56 98.90 126.47 C 113.10 134.48 127.23 142.60 141.42 150.62 C 142.30 151.28 143.90 151.66 143.78 153.06 C 144.01 169.79 144.31 186.53 144.19 203.26 C 143.71 204.39 142.48 204.85 141.53 205.50 C 127.84 213.46 114.21 221.53 100.53 229.49 C 99.18 230.38 97.77 229.04 96.58 228.51 C 82.65 220.31 68.26 212.79 54.55 204.27 C 54.07 187.52 54.32 170.72 54.15 153.96 C 53.83 152.53 55.37 151.94 56.28 151.30 Z"
+     id="path3644" />
+  <path
+     fill="#000000"
+     d=" M 197.01 129.01 C 198.06 128.36 199.32 127.72 200.47 128.61 C 214.30 136.40 228.07 144.30 241.88 152.12 C 242.83 152.81 244.54 153.42 244.21 154.93 C 244.35 171.66 244.43 188.39 244.52 205.12 C 229.85 214.20 214.74 222.60 199.93 231.46 C 184.76 223.21 169.90 214.42 154.84 205.97 C 154.38 189.98 154.62 173.98 154.37 158.00 C 154.44 156.25 153.86 153.85 155.98 153.09 C 169.64 145.03 183.37 137.09 197.01 129.01 Z"
+     id="path3646" />
+  <path
+     fill="#ffffff"
+     d=" M 0.00 152.11 C 0.45 165.76 2.34 179.41 6.29 192.50 C 15.28 223.19 34.47 250.75 60.08 269.88 C 84.87 288.72 115.67 299.09 146.73 300.00 L 0.00 300.00 L 0.00 152.11 Z"
+     id="path3648"
+     style="filter:url(#filter3687)" />
+  <path
+     fill="#ffffff"
+     d=" M 271.59 237.58 C 289.50 212.96 299.25 182.79 300.00 152.41 L 300.00 300.00 L 149.52 300.00 C 164.91 299.82 180.33 297.66 195.00 292.98 C 225.62 283.42 252.90 263.64 271.59 237.58 Z"
+     id="path3650"
+     style="filter:url(#filter3695)"
+     inkscape:export-filename="C:\Users\Juhachi18\Pictures\path3650.png"
+     inkscape:export-xdpi="90.000008"
+     inkscape:export-ydpi="90.000008" />
+</svg>
