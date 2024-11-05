@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard</title>
+
+  <!-- css file  -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- icons CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+  <link flex href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <script src="script.js" defer></script>
+
+  <!-- graph  -->
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script type="text/javascript">
+    google.charts.load('current', {'packages':['line']});
+    google.charts.setOnLoadCallback(drawChart);
+
+  function drawChart() {
+
+    var data = new google.visualization.DataTable();
+    data.addColumn('number', 'Sent');
+    data.addColumn('number', '');
+    data.addColumn('number', '');
+
+    data.addRows([
+      [1,  37.8, 40.8],
+      [2,  30.9, 40.5],
+      [3,  25.4,   57],
+      [4,  11.7, 18.8],
+      [5,  11.9, 17.6],
+      [6,   8.8, 13.6],
+      [7,   7.6, 12.3],
+      [8,  12.3, 29.2],
+      [9,  16.9, 42.9],
+      [10, 12.8, 30.9],
+      [11,  5.3,  7.9],
+      [12,  6.6,  8.4],
+      [13,  4.8,  6.3],
+      [14,  4.2,  6.2]
+    ]);
+
+    var options = {
+      height: 300,
+      axes: {
+        x: {
+          0: {side: 'bottom'}
+        }
+      }
+    };
+
+    var chart = new google.charts.Line(document.getElementById('line_top_x'));
+
+    chart.draw(data, google.charts.Line.convertOptions(options));
+  }
+</script>
+</head>
+<body>
+  <!-- sidebar  -->
+  <nav class="sidebar">
+    <div class="logo_items flex">
+      <span class="nav_image">
+        <img src="images/logo1.svg" alt="logo_img" />
+      </span>
+      <span class="logo_name">Analytics</span>
+    </div>
+
+    <div class="menu_container">
+      <div class="menu_items">
+        <ul class="menu_item">
+          <li class="item">
+            <a href="#" class="link flex">
+              <div>
+                <i class="fa-solid fa-house-chimney"></i>
+                <p>Home</p>
+              </div>
+            </a>
+          </li>
+          <li class="item">
+            <a href="#" class="link flex">
+              <div>
+                <i class='bx bxs-bar-chart-alt-2'></i>
+                <p>Analytics</p>
+              </div>
+            </a>
+          </li>
+        </ul>
+
+        <ul class="menu_item">
+          <li class="item">
+            <a href="#" class="link flex">
+              <div>
+                <i class='bx bxs-message-dots' ></i>
+                <p>Engage</p>
+              </div>
+              <!-- <span>Engage</span> -->
+            </a>
+          </li>
+          <li class="item">
+            <a href="#" class="link flex">
+              <div>
+                <i class='bx bxs-magnet' ></i>
+                <p>Demand <br>Wise</p>
+              </div>
+            </a>
+          </li>
+          <li class="item">
+            <a href="#" class="link flex">
+              <div>
+                <i class='bx bx-support' ></i>
+                <p>Support</p>
+              </div>
+              <!-- <span>Support</span> -->
+            </a>
+          </li>
+        </ul>
+
+        
+      </div>
+
+      <div class="sidebar_profile">
+        <div class="data_text">
+          <ul class="menu_item">
+              <li class="item link-flex">
+                <a href="#" class="link">
+                  <span>What's <br>New</span>
+                </a>
+              </li>
+              <li class="item">
+                <a href="#" class="link flex">
+                  <div>
+                    <i class='bx bxs-cog' ></i>
+                    <p><span>Settings</span></p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Navbar -->
+  <nav class="navbar flex">
+      <div class="nav-left flex">
+          <div class="top-img">
+              <i class="fa-regular fa-handshake"></i>
+          </div>
+          <div class="nav-content">
+              <p class="smaller">Demand Wise</p>
+              <p class="larger">Opportunity</p>
+          </div>
+      </div>
+      <div class="nav-right flex">
+          <input type="text" placeholder="Search..." class="search_box" />
+          <div class="date">
+              <span>12 Jul 24 - 22 Jul 24 </span>
+              <span>📅</span>
+          </div>
+      </div>
+      
+    
+  </nav>
+
+  <!-- main body  -->
+  <div class="rest-body">
+
+    <!-- dashboard insight  -->
+    <div class="top-main flex">
+      <div class="focus">
+        <div class="top-title flex">
+            <p>Priority Focus</p>
+            <a class="color-fff" href="">See All</a>
+        </div>
+        <div class="flex todo-main">
+            <div class="todo">
+                <i class="fa-solid fa-list"></i></i> <span>Today's todo</span>
+                <h2>7</h2>
+            </div>
+            <div class="todo">
+                <i class="fa-regular fa-calendar"></i> <span>Today's Closure Date</span>
+                <h2>3</h2>
+            </div>
+            <div class="todo">
+                <i class="fa-solid fa-star"></i></i> <span>Ai Suggested</span>
+                <h2>4</h2>
+            </div>
+        </div>
+      </div>
+      <div class="goals">
+        <div class="top-title flex">
+            <p>Goal Achievements</p>
+            <a href="">See All Goals</a>
+        </div>
+        <div class="todo-main flex">
+          <div class="todo">
+            <div class="progress-container2">
+              <div class="progress-circle">
+                <div class="progress-text">80%</div>
+              </div>
+              <div class="progress-subtext">Of Total Goals Achieved</div>
+            </div>
+          </div>
+          <div class="todo">
+              Active Goals
+              <h2>15</h2>
+          </div>
+          <div class="todo">
+              Completed Goals
+              <h2>11</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- five box  -->
+    <div class="five-div flex">
+      <div class="div-no div1">
+        <span>Sent</span> <i class="fa-solid fa-circle-info"></i>
+        <p>500K</p>
+      </div>
+      <div class="div-no div2">
+        <span>Delivered</span> <i class="fa-solid fa-circle-info"></i>
+        <p>420K</p>
+      </div>
+      <div class="div-no div3">
+        <span>Opened</span> <i class="fa-solid fa-circle-info"></i>
+        <p>328K</p>
+      </div>
+      <div class="div-no div3">
+        <span>Engagement</span> <i class="fa-solid fa-circle-info"></i>
+        <p>135K</p>
+      </div>
+      <div class="div-no div3">
+        <span>Engagement Rate</span> <i class="fa-solid fa-circle-info"></i>
+        <p>14%</p>
+      </div>
+    </div>
+
+    <!-- graph section -->
+    <div class="graph1">
+      <div class="flex graph1-gap">
+        <div class="graph-top flex">
+          <i class='bx bx-line-chart'></i> 
+          <p>Performance Trend</p> 
+          <i class="fa-solid fa-circle-info"></i>
+        </div>
+        <div class="container">
+
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="switch">
+                <input id="switch-y" name="tripple" type="radio" value="Y" class="switch-input" />
+                <label for="switch-y" class="switch-label switch-label-y">D</label>
+                <input id="switch-i" name="tripple" type="radio" value="I" class="switch-input" checked />
+                <label for="switch-i" class="switch-label switch-label-i">W</label>
+                <input id="switch-n" name="tripple" type="radio" value="N" class="switch-input" />
+                <label for="switch-n" class="switch-label switch-label-n">M</label>
+                <span class="switch-selector"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="line_top_x"></div>
+    </div>
+
+    <!-- Sales Rep -->
+    <div class="table-container">
+      <div class="header">
+        <div class="header-title">
+          <span class="icon"><i class="fa-solid fa-user-group"></i></span>
+          <p>Sales Rep</p>
+          <span class="info-icon"><i class="fa-solid fa-circle-info"></i></span>
+        </div>
+        <div class="header-controls">
+          <button class="filter-btn"><i class="fa-solid fa-list"></i></button> <!-- Filter icon placeholder -->
+          <input type="text" placeholder="Search" class="search-input" />
+          <button class="download-btn"><i class='bx bx-download'></i></button> <!-- Download icon placeholder -->
+        </div>
+      </div>
+    
+      <!-- Table Section -->
+      <table class="sales-table">
+        <thead>
+          <tr>
+            <th class="darker">Name</th>
+            <th class="darker">Store</th>
+            <th class="darker">City</th>
+            <th class="darker">Region</th>
+            <th class="sortable lighter">
+              <i class='bx bx-filter filter-icon'></i> <!-- Placeholder image for filter icon -->
+              Total Opportunities
+            </th>
+            <th class="lighter">Chase</th>
+            <th class="lighter">Proposal</th>
+            <th class="lighter">Contracting</th>
+            <th class="lighter">Escalated opportunity</th>
+            <th class="lighter">Won</th>
+            <th class="lighter">Lost</th>
+            <th class="lighter">Hygiene Score</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="darker">Alex Smith</td>
+            <td  class="darker">Lowe's of Anchorage, AK</td>
+            <td  class="darker">Anchorage</td>
+            <td  class="darker">Northeast</td>
+            <td>40</td>
+            <td>14</td>
+            <td>8</td>
+            <td>5</td>
+            <td>5</td>
+            <td>2</td>
+            <td>1</td>
+            <td>5/10</td>
+          </tr>
+          <tr>
+            <td  class="darker">Jamie Chen</td>
+            <td  class="darker">Lowe's of Jonesboro</td>
+            <td  class="darker">Wasilla</td>
+            <td  class="darker">Southwest</td>
+            <td>20</td>
+            <td>8</td>
+            <td>4</td>
+            <td>2</td>
+            <td>2</td>
+            <td>1</td>
+            <td>0</td>
+            <td>5/10</td>
+          </tr>
+          <tr>
+            <td  class="darker">Morgan Green</td>
+            <td  class="darker">Lowe's of Carefree, AZ</td>
+            <td  class="darker">Carefree</td>
+            <td  class="darker">West</td>
+            <td>35</td>
+            <td>12</td>
+            <td>6</td>
+            <td>5</td>
+            <td>5</td>
+            <td>3</td>
+            <td>1</td>
+            <td>8/10</td>
+          </tr>
+          <tr>
+            <td  class="darker">Dana White</td>
+            <td  class="darker">Lowe's of Prescott</td>
+            <td  class="darker">Chandler</td>
+            <td  class="darker">Southeast</td>
+            <td>28</td>
+            <td>10</td>
+            <td>5</td>
+            <td>4</td>
+            <td>4</td>
+            <td>2</td>
+            <td>1</td>
+            <td>5/10</td>
+          </tr>
+          <tr>
+            <td  class="darker">Riley Brown</td>
+            <td  class="darker">Lowe's of Sierra Vista</td>
+            <td  class="darker">Mesa</td>
+            <td  class="darker">Midwest</td>
+            <td>37</td>
+            <td>14</td>
+            <td>6</td>
+            <td>5</td>
+            <td>5</td>
+            <td>9</td>
+            <td>1</td>
+            <td>5/10</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="4"></td>
+            <td>264</td>
+            <td>172</td>
+            <td>48</td>
+            <td>21</td>
+            <td>15</td>
+            <td>18</td>
+            <td>3</td>
+            <td>7/10</td>
+          </tr>
+        </tfoot>
+      </table>
+      <div class="footer">
+        1 Filter Applicable: Date
+      </div>
+    </div>
+    
+    <!-- opportunities  -->
+    <div class="opportunities">
+      <div class="oppo-top flex">
+        <p>Opportunities (80)</p>
+        <div class="oppo-box flex">
+          <input type="text" name="" id="" placeholder="Search">
+          <div class="oppo-add">
+            + Create Opportunity
+          </div>
+          <select name="cars" id="cars">
+            <option value=""></option>
+            <option value="saab">Saab</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+          </select>
+        </div>
+      </div>
+      <div class="oppo-mid">
+        <div class="dropdown-container">
+          <!-- First Dropdown -->
+          <div class="dropdown">
+            <button class="dropdown-toggle" onclick="toggleDropdown('dropdown1')">
+              Pivot By
+              <span class="arrow"><i class='bx bx-caret-up' ></i></span>
+            </button>
+            <div id="dropdown1" class="dropdown-content">
+              <div class="header">
+                <span>Selected: <span id="selectedCount">0</span>/5</span>
+                <a href="#" onclick="clearAll()">Clear all</a>
+              </div>
+              <label>
+                <input type="checkbox" onchange="updateCount()"> All Opportunities <span>52</span>
+              </label>
+              <label>
+                <input type="checkbox" onchange="updateCount()"> Chase <span>3</span>
+              </label>
+              <label>
+                <input type="checkbox" onchange="updateCount()"> Proposal <span>0</span>
+              </label>
+              <label>
+                <input type="checkbox" onchange="updateCount()"> Contracting <span>0</span>
+              </label>
+              <label>
+                <input type="checkbox" onchange="updateCount()"> Won <span>12</span>
+              </label>
+              <label>
+                <input type="checkbox" onchange="updateCount()"> Lost <span>12</span>
+              </label>
+            </div>
+          </div>
+        
+          <!-- Second Dropdown -->
+          <div class="dropdown">
+            <button class="dropdown-toggle" onclick="toggleDropdown('dropdown2')">
+              Sales rep
+              <span class="arrow"><i class='bx bx-caret-up' ></i></span>
+            </button>
+            <div id="dropdown2" class="dropdown-content">
+              <div class="header">
+                <span>Selected: <span id="selectedCount">0</span>/5</span>
+                <a href="#" onclick="clearAll()">Clear all</a>
+              </div>
+              <label>
+                <input type="checkbox" onchange="updateCount()"> All Opportunities <span>52</span>
+              </label>
+              <label>
+                <input type="checkbox" onchange="updateCount()"> Chase <span>3</span>
+              </label>
+              <label>
+                <input type="checkbox" onchange="updateCount()"> Proposal <span>0</span>
+              </label>
+              <label>
+                <input type="checkbox" onchange="updateCount()"> Contracting <span>0</span>
+              </label>
+              <label>
+                <input type="checkbox" onchange="updateCount()"> Won <span>12</span>
+              </label>
+              <label>
+                <input type="checkbox" onchange="updateCount()"> Lost <span>12</span>
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="oppo-report">
+          <div class="oppo-boxer">
+            <div class="boxer-top">
+
+              <div class="boxer-offer">
+                <i class='bx bxs-hot' ></i>
+                <div class="boxes">
+                  <div class="hygine-div">
+                    <h3>Stock Clearance Offer</h3>
+                    <span class="one-span"><i class="fa-solid fa-signal"></i> High Value</span> <span class="two-span"><i class='bx bx-star' ></i> Hygine: 5/10</span>
+                  </div>
+                  <div class="profile-div">
+                    <img src="images/prod3.jpeg" alt="">
+                    <div class="profile-info">
+                      <h3>Andrew George</h3>
+                      <i class="fa-solid fa-phone"></i>
+                      <i class="fa-brands fa-whatsapp"></i>
+                      <i class="fa-solid fa-envelope"></i>
+                      <i class="fa-solid fa-list"></i>
+                      <i class="fa-solid fa-bars"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="box-bottom">
+              <div class="box-divs">
+                <p>Status: <strong>Proposal</strong></p>
+                <div class="progress-container">
+                  <div class="progress-segment"></div>
+                  <div class="progress-segment active"></div>
+                  <div class="progress-segment"></div>
+                  <div class="progress-segment"></div>
+                  <div class="progress-segment"></div>
+                </div>
+              </div>
+              <div class="box-divs">
+                <p>Products</p>
+                <div class="product-container">
+                  <div class="product-icons">
+                    <div class="product-icon" style="background-image: url('images/prod1.jpg'); background-size: cover;"></div>
+                    <div class="product-icon" style="background-image: url('images/prod2.jpg'); background-size: cover;"></div>
+                    <div class="product-icon" style="background-image: url('images/prod3.jpeg'); background-size: cover;"></div>
+                  </div>
+                  <div class="product-text">5 Products</div>
+                </div>
+                
+              </div>
+              <div class="box-divs">
+                <p>Revenue</p>
+                <strong>$40,000</strong>
+              </div>
+              <div class="box-divs">
+                <p>Sales Person</p>
+                <strong>Alex Lobo</strong>
+              </div>
+              <div class="box-divs">
+                <p>Expected Closure Date</p>
+                <strong>20 Aug 24</strong> <span>(33 days)</span>
+              </div>
+              <div class="box-divs">
+                <p>Latest Activity: 19 July 24</p>
+                <strong>Presentation attached</strong>
+              </div>
+            </div>
+          </div>
+          <div class="oppo-boxer">
+            <div class="boxer-top">
+
+              <div class="boxer-offer">
+                <i class='bx bxs-hot' ></i>
+                
+                <div class="boxes">
+                  <div class="hygine-div">
+                    <h3>Stock Clearance Offer</h3>
+                    <span class="one-span"><i class="fa-solid fa-signal"></i> High Value</span> <span class="two-span"><i class='bx bx-star' ></i> Hygine: 5/10</span>
+                  </div>
+                  <div class="profile-div">
+                    <img src="images/prod3.jpeg" alt="">
+                    <div class="profile-info">
+                      <h3>Andrew George</h3>
+                      <i class="fa-solid fa-phone"></i>
+                      <i class="fa-brands fa-whatsapp"></i>
+                      <i class="fa-solid fa-envelope"></i>
+                      <i class="fa-solid fa-list"></i>
+                      <i class="fa-solid fa-bars"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="box-bottom">
+              <div class="box-divs">
+                <p>Status: <strong>Proposal</strong></p>
+                <div class="progress-container">
+                  <div class="progress-segment"></div>
+                  <div class="progress-segment active"></div>
+                  <div class="progress-segment"></div>
+                  <div class="progress-segment"></div>
+                  <div class="progress-segment"></div>
+                </div>
+              </div>
+              <div class="box-divs">
+                <p>Products</p>
+                <div class="product-container">
+                  <div class="product-icons">
+                    <div class="product-icon" style="background-image: url('images/prod1.jpg'); background-size: cover;"></div>
+                    <div class="product-icon" style="background-image: url('images/prod2.jpg'); background-size: cover;"></div>
+                    <div class="product-icon" style="background-image: url('images/prod3.jpeg'); background-size: cover;"></div>
+                  </div>
+                  <div class="product-text">5 Products</div>
+                </div>
+                
+              </div>
+              <div class="box-divs">
+                <p>Revenue</p>
+                <strong>$40,000</strong>
+              </div>
+              <div class="box-divs">
+                <p>Sales Person</p>
+                <strong>Alex Lobo</strong>
+              </div>
+              <div class="box-divs">
+                <p>Expected Closure Date</p>
+                <strong>20 Aug 24</strong> <span>(33 days)</span>
+              </div>
+              <div class="box-divs">
+                <p>Latest Activity: 19 July 24</p>
+                <strong>Presentation attached</strong>
+              </div>
+            </div>
+          </div>
+          <div class="oppo-boxer">
+            <div class="boxer-top">
+
+              <div class="boxer-offer">
+                <i class='bx bxs-hot' ></i>
+                
+                <div class="boxes">
+                  <div class="hygine-div">
+                    <h3>Stock Clearance Offer</h3>
+                    <span class="one-span"><i class="fa-solid fa-signal"></i> High Value</span> <span class="two-span"><i class='bx bx-star' ></i> Hygine: 5/10</span>
+                  </div>
+                  <div class="profile-div">
+                    <img src="images/prod3.jpeg" alt="">
+                    <div class="profile-info">
+                      <h3>Andrew George</h3>
+                      <i class="fa-solid fa-phone"></i>
+                      <i class="fa-brands fa-whatsapp"></i>
+                      <i class="fa-solid fa-envelope"></i>
+                      <i class="fa-solid fa-list"></i>
+                      <i class="fa-solid fa-bars"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="box-bottom">
+              <div class="box-divs">
+                <p>Status: <strong>Proposal</strong></p>
+                <div class="progress-container">
+                  <div class="progress-segment"></div>
+                  <div class="progress-segment"></div>
+                  <div class="progress-segment active"></div>
+                  <div class="progress-segment"></div>
+                  <div class="progress-segment"></div>
+                </div>
+              </div>
+              <div class="box-divs">
+                <p>Products</p>
+                <div class="product-container">
+                  <div class="product-icons">
+                    <div class="product-icon" style="background-image: url('images/prod1.jpg'); background-size: cover;"></div>
+                    <div class="product-icon" style="background-image: url('images/prod2.jpg'); background-size: cover;"></div>
+                    <div class="product-icon" style="background-image: url('images/prod3.jpeg'); background-size: cover;"></div>
+                  </div>
+                  <div class="product-text">5 Products</div>
+                </div>
+                
+              </div>
+              <div class="box-divs">
+                <p>Revenue</p>
+                <strong>$40,000</strong>
+              </div>
+              <div class="box-divs">
+                <p>Sales Person</p>
+                <strong>Alex Lobo</strong>
+              </div>
+              <div class="box-divs">
+                <p>Expected Closure Date</p>
+                <strong>20 Aug 24</strong> <span>(33 days)</span>
+              </div>
+              <div class="box-divs">
+                <p>Latest Activity: 19 July 24</p>
+                <strong>Presentation attached</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+    </div>
+  </div>
+    
+  </body>
+</html>
